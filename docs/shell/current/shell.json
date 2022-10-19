@@ -1,78 +1,20 @@
 [
   {
-    "@id": "http://www.essepuntato.it/2008/12/earmark#Attribute",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "A markup item identifying an attribute, as the item 'src' in the following XML excerpt:\n\n<img src=\"http://palindrom.es/phd/wp-content/uploads/2009/10/EARMARKLogo.png\" />"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "attribute"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "http://www.essepuntato.it/2008/12/earmark#MarkupItem"
-      }
-    ]
-  },
-  {
     "@id": "http://www.essepuntato.it/2008/12/earmark#hasContent",
     "@type": [
       "http://www.w3.org/2002/07/owl#DatatypeProperty"
     ]
   },
   {
-    "@id": "http://www.essepuntato.it/2008/12/earmark#StringDocuverse",
+    "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "A docuverse that specifies all its content in form of a string, such as 'This is the string the docuverse represents.'."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "string docuverse"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "http://www.essepuntato.it/2008/12/earmark#Docuverse"
-      },
-      {
-        "@id": "_:Na7a97b0f972a48389a82b0b74b4ab464"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#disjointWith": [
-      {
-        "@id": "http://www.essepuntato.it/2008/12/earmark#URIDocuverse"
-      }
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
     ]
   },
   {
-    "@id": "_:Na7a97b0f972a48389a82b0b74b4ab464",
+    "@id": "http://purl.org/dc/elements/1.1/title",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#allValuesFrom": [
-      {
-        "@id": "http://www.w3.org/2001/XMLSchema#string"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://www.essepuntato.it/2008/12/earmark#hasContent"
-      }
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
     ]
   },
   {
@@ -97,12 +39,12 @@
         "@id": "http://www.essepuntato.it/2008/12/earmark#XPathRange"
       },
       {
-        "@id": "_:N9b21d17d50634780a8786af2651f27fd"
+        "@id": "_:N4f2c2a8b01204792a2d9274ef59283b8"
       }
     ]
   },
   {
-    "@id": "_:N9b21d17d50634780a8786af2651f27fd",
+    "@id": "_:N4f2c2a8b01204792a2d9274ef59283b8",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -110,17 +52,17 @@
       {
         "@list": [
           {
-            "@id": "_:N6415ad545e8f45c98d0d2a6f5129d622"
+            "@id": "_:N84294152b2624ed78744e3fa7e56bb91"
           },
           {
-            "@id": "_:N529b2d4d428b4824a1329c06333b4184"
+            "@id": "_:N8b86aad731a542a0a8c5a737393a8308"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:N6415ad545e8f45c98d0d2a6f5129d622",
+    "@id": "_:N84294152b2624ed78744e3fa7e56bb91",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -136,7 +78,7 @@
     ]
   },
   {
-    "@id": "_:N529b2d4d428b4824a1329c06333b4184",
+    "@id": "_:N8b86aad731a542a0a8c5a737393a8308",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -148,167 +90,6 @@
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
         "@id": "http://www.essepuntato.it/2008/12/earmark#ends"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.essepuntato.it/2008/12/earmark#XPathRange",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "A range that refers to any text, obtained from a particular xpath context starting from the docuverse content, lying between two locations that identify precise positions.\n\nThe semantics of this kind of range is the following:\n1. assuming the content of the docuverse the range refers to as well-formed XML, we consider the sequence composed by the nodes obtained by running the xpath context (= a query) on the docuverse. If some non-nodes (e.g., strings, integers, etc.) is returned, it must be excluded from the sequence;\n2. for each node in the sequence, we consider its 'value-of', i.e., the strings contained in all the text nodes reachable starting from the node itself;\n3. considering the concatenation of all the strings obtained in the previous point, we now calculate the begin and end locations of the range."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "xpath range"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "http://www.essepuntato.it/2008/12/earmark#Range"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#equivalentClass": [
-      {
-        "@id": "_:N1da59d1a06274b6a9f0aa5779ac9ec24"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#hasKey": [
-      {
-        "@list": [
-          {
-            "@id": "http://www.essepuntato.it/2008/12/earmark#refersTo"
-          },
-          {
-            "@id": "http://www.essepuntato.it/2008/12/earmark#begins"
-          },
-          {
-            "@id": "http://www.essepuntato.it/2008/12/earmark#ends"
-          },
-          {
-            "@id": "http://www.essepuntato.it/2008/12/earmark#hasXPathContext"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@id": "_:N1da59d1a06274b6a9f0aa5779ac9ec24",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://www.essepuntato.it/2008/12/earmark#hasXPathContext"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#someValuesFrom": [
-      {
-        "@id": "http://www.w3.org/2001/XMLSchema#string"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.essepuntato.it/2008/12/earmark#Docuverse",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ]
-  },
-  {
-    "@id": "http://www.essepuntato.it/2008/12/earmark#ends",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#DatatypeProperty"
-    ]
-  },
-  {
-    "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#AnnotationProperty"
-    ]
-  },
-  {
-    "@id": "http://purl.org/dc/elements/1.1/rights",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#AnnotationProperty"
-    ]
-  },
-  {
-    "@id": "http://purl.org/dc/elements/1.1/contributor",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#AnnotationProperty"
-    ]
-  },
-  {
-    "@id": "http://purl.org/dc/elements/1.1/creator",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#AnnotationProperty"
-    ]
-  },
-  {
-    "@id": "_:N2d76f0c6d4404bda911f79f118483829",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#AllDisjointClasses"
-    ],
-    "http://www.w3.org/2002/07/owl#members": [
-      {
-        "@list": [
-          {
-            "@id": "http://www.essepuntato.it/2008/12/earmark#Attribute"
-          },
-          {
-            "@id": "http://www.essepuntato.it/2008/12/earmark#Comment"
-          },
-          {
-            "@id": "http://www.essepuntato.it/2008/12/earmark#Element"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@id": "http://www.essepuntato.it/2008/12/earmark#URIDocuverse",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "A container of strings that may appear in the document, such as the URL 'http://www.essepuntato.it/2008/12/docuverse.txt' that contains the string 'This is the string the docuverse represents.'"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "URI docuverse"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "http://www.essepuntato.it/2008/12/earmark#Docuverse"
-      },
-      {
-        "@id": "_:Ne01e553f4c1f437c9604fd8e72ef3be9"
-      }
-    ]
-  },
-  {
-    "@id": "_:Ne01e553f4c1f437c9604fd8e72ef3be9",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#allValuesFrom": [
-      {
-        "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://www.essepuntato.it/2008/12/earmark#hasContent"
       }
     ]
   },
@@ -336,39 +117,86 @@
     ]
   },
   {
-    "@id": "http://purl.org/dc/elements/1.1/title",
+    "@id": "http://www.essepuntato.it/2008/12/earmark#begins",
     "@type": [
-      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
     ]
   },
   {
-    "@id": "http://www.essepuntato.it/2008/12/earmark#PointerRange",
+    "@id": "http://www.essepuntato.it/2008/12/earmark#Attribute",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "@language": "en",
-        "@value": "A range that refers to any text lying between two non-negative integer locations that identify precise positions withing a docuverse.\n\nEach location of this kind of range refers to a point before or after a particular character. For instance, taking into consideration the string 'This is an example' contained by a docuverse, the location '0' is immediately before the first character 'T', location '1' is immediately after the character 'T' and before the character 'h', the location '2' is after the character 'h' and before 'i', and so on.\n\nNote that these ranges allow to define (considering the string 'a devil' as content of a docuverse as example):\n- document-order ranges, i.e., those ranges that has the begin location lesser than the end location (e.g., begin = 2, end = 7, content result 'devil');\n- reverse-order ranges, i.e., those ranges that has the begin location greater than the end location (e.g., begin = 7, end = 2, content result 'lived')."
+        "@value": "A markup item identifying an attribute, as the item 'src' in the following XML excerpt:\n\n<img src=\"http://palindrom.es/phd/wp-content/uploads/2009/10/EARMARKLogo.png\" />"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "en",
-        "@value": "pointer range"
+        "@value": "attribute"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/earmark#MarkupItem"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf18f5965a1774b2d88af408c0fb1fc34",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+    ],
+    "http://www.w3.org/2002/07/owl#members": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/earmark#Attribute"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/earmark#Comment"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/earmark#Element"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/elements/1.1/creator",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2008/12/earmark#XPathRange",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A range that refers to any text, obtained from a particular xpath context starting from the docuverse content, lying between two locations that identify precise positions.\n\nThe semantics of this kind of range is the following:\n1. assuming the content of the docuverse the range refers to as well-formed XML, we consider the sequence composed by the nodes obtained by running the xpath context (= a query) on the docuverse. If some non-nodes (e.g., strings, integers, etc.) is returned, it must be excluded from the sequence;\n2. for each node in the sequence, we consider its 'value-of', i.e., the strings contained in all the text nodes reachable starting from the node itself;\n3. considering the concatenation of all the strings obtained in the previous point, we now calculate the begin and end locations of the range."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "xpath range"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
         "@id": "http://www.essepuntato.it/2008/12/earmark#Range"
-      },
-      {
-        "@id": "_:Nc25fb40f1ecc4eb19785350ebf850956"
       }
     ],
-    "http://www.w3.org/2002/07/owl#disjointWith": [
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@id": "http://www.essepuntato.it/2008/12/earmark#XPathRange"
+        "@id": "_:N0d38d14917b647a4807ed6f9a81e23df"
       }
     ],
     "http://www.w3.org/2002/07/owl#hasKey": [
@@ -382,112 +210,28 @@
           },
           {
             "@id": "http://www.essepuntato.it/2008/12/earmark#ends"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@id": "_:Nc25fb40f1ecc4eb19785350ebf850956",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2002/07/owl#intersectionOf": [
-      {
-        "@list": [
-          {
-            "@id": "_:N8b98f3c17ac549399874cfe93940fbd5"
           },
           {
-            "@id": "_:N26181a76bf69426d9246564b94ba3a8a"
+            "@id": "http://www.essepuntato.it/2008/12/earmark#hasXPathContext"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:N8b98f3c17ac549399874cfe93940fbd5",
+    "@id": "_:N0d38d14917b647a4807ed6f9a81e23df",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
-    "http://www.w3.org/2002/07/owl#allValuesFrom": [
-      {
-        "@id": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
-      }
-    ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://www.essepuntato.it/2008/12/earmark#begins"
-      }
-    ]
-  },
-  {
-    "@id": "_:N26181a76bf69426d9246564b94ba3a8a",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#allValuesFrom": [
-      {
-        "@id": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        "@id": "http://www.essepuntato.it/2008/12/earmark#hasXPathContext"
       }
     ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
       {
-        "@id": "http://www.essepuntato.it/2008/12/earmark#ends"
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
       }
-    ]
-  },
-  {
-    "@id": "http://www.essepuntato.it/2008/12/earmark#Range",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ]
-  },
-  {
-    "@id": "http://www.essepuntato.it/2008/12/earmark#Element",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "A markup item identifying an element, as the item 'img' in the following XML excerpt:\n\n<img src=\"http://palindrom.es/phd/wp-content/uploads/2009/10/EARMARKLogo.png\" />"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "element"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "http://www.essepuntato.it/2008/12/earmark#MarkupItem"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.essepuntato.it/2008/12/earmark#MarkupItem",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ]
-  },
-  {
-    "@id": "http://www.w3.org/2002/07/owl#versionInfo",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#AnnotationProperty"
-    ]
-  },
-  {
-    "@id": "http://purl.org/dc/elements/1.1/language",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#AnnotationProperty"
-    ]
-  },
-  {
-    "@id": "http://www.essepuntato.it/2008/12/earmark#refersTo",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty"
     ]
   },
   {
@@ -497,9 +241,98 @@
     ]
   },
   {
-    "@id": "http://www.essepuntato.it/2008/12/earmark#begins",
+    "@id": "http://purl.org/dc/elements/1.1/contributor",
     "@type": [
-      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2008/12/earmark#URIDocuverse",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A container of strings that may appear in the document, such as the URL 'http://www.essepuntato.it/2008/12/docuverse.txt' that contains the string 'This is the string the docuverse represents.'"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "URI docuverse"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/earmark#Docuverse"
+      },
+      {
+        "@id": "_:N61a2561a05ba4c0b96590b443e857364"
+      }
+    ]
+  },
+  {
+    "@id": "_:N61a2561a05ba4c0b96590b443e857364",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/earmark#hasContent"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2008/12/earmark#StringDocuverse",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A docuverse that specifies all its content in form of a string, such as 'This is the string the docuverse represents.'."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "string docuverse"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/earmark#Docuverse"
+      },
+      {
+        "@id": "_:N7550b70a130a4072a72d412b2e3a7261"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#disjointWith": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/earmark#URIDocuverse"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7550b70a130a4072a72d412b2e3a7261",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/earmark#hasContent"
+      }
     ]
   },
   {
@@ -528,6 +361,143 @@
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
         "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2008/12/earmark#refersTo",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2008/12/earmark#PointerRange",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A range that refers to any text lying between two non-negative integer locations that identify precise positions withing a docuverse.\n\nEach location of this kind of range refers to a point before or after a particular character. For instance, taking into consideration the string 'This is an example' contained by a docuverse, the location '0' is immediately before the first character 'T', location '1' is immediately after the character 'T' and before the character 'h', the location '2' is after the character 'h' and before 'i', and so on.\n\nNote that these ranges allow to define (considering the string 'a devil' as content of a docuverse as example):\n- document-order ranges, i.e., those ranges that has the begin location lesser than the end location (e.g., begin = 2, end = 7, content result 'devil');\n- reverse-order ranges, i.e., those ranges that has the begin location greater than the end location (e.g., begin = 7, end = 2, content result 'lived')."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "pointer range"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/earmark#Range"
+      },
+      {
+        "@id": "_:N56c7ef49404347efb81f4af25e53496b"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#disjointWith": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/earmark#XPathRange"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#hasKey": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.essepuntato.it/2008/12/earmark#refersTo"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/earmark#begins"
+          },
+          {
+            "@id": "http://www.essepuntato.it/2008/12/earmark#ends"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N56c7ef49404347efb81f4af25e53496b",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "_:Na7ed15c5644345928631f90e9a674d4f"
+          },
+          {
+            "@id": "_:Nc81b706e24174767b62370c24e487a39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:Na7ed15c5644345928631f90e9a674d4f",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/earmark#begins"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc81b706e24174767b62370c24e487a39",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/earmark#ends"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2008/12/earmark#Range",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2002/07/owl#versionInfo",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2008/12/earmark#Element",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A markup item identifying an element, as the item 'img' in the following XML excerpt:\n\n<img src=\"http://palindrom.es/phd/wp-content/uploads/2009/10/EARMARKLogo.png\" />"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "element"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.essepuntato.it/2008/12/earmark#MarkupItem"
       }
     ]
   },
@@ -593,7 +563,7 @@
     ],
     "http://www.w3.org/2002/07/owl#imports": [
       {
-        "@id": "http://www.essepuntato.it/2010/05/ghost"
+        "@id": "https://essepuntato.github.io/earmark/ghost/current/ghost.owl"
       }
     ],
     "http://www.w3.org/2002/07/owl#versionInfo": [
@@ -606,6 +576,36 @@
     "@id": "http://www.w3.org/2000/01/rdf-schema#label",
     "@type": [
       "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/elements/1.1/language",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/elements/1.1/rights",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2008/12/earmark#MarkupItem",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2008/12/earmark#Docuverse",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2008/12/earmark#ends",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
     ]
   }
 ]

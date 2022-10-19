@@ -31,7 +31,7 @@ dc:title a owl:AnnotationProperty .
     rdfs:comment """Extremely Annotational RDF Markup (EARMARK) is a meta-syntax for non-embedded markup that can be used for stand-off annotations of textual content with fully W3C-compliant technologies.
 
 This document represents the EARMARK ontology definition of the shell classes i.e., all those classes that must be used to define all the elements, attributes, comments, text nodes and hierarchies among them."""@en ;
-    owl:imports <http://www.essepuntato.it/2010/05/ghost> ;
+    owl:imports <https://essepuntato.github.io/earmark/ghost/current/ghost.owl> ;
     owl:versionInfo "2.0"^^xsd:string .
 
 :PointerRange a owl:Class ;
