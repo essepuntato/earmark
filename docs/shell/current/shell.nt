@@ -1,132 +1,132 @@
-<http://www.essepuntato.it/2008/12/earmark#hasXPathContext> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines a particular xpath context for the range."@en .
-<http://www.essepuntato.it/2008/12/earmark#XPathRange> <http://www.w3.org/2002/07/owl#hasKey> _:N01ef64993d46493f90fc3d1dc131d038 .
-_:Nf053aa260d034f6691b5fc3e6ee8e488 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N84294152b2624ed78744e3fa7e56bb91 .
-_:N435316d0e9da4954b82a0b89f449d52f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#ends> .
-<http://www.essepuntato.it/2008/12/earmark#ends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:N84294152b2624ed78744e3fa7e56bb91 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.essepuntato.it/2008/12/earmark#XPathPointerRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:N0d38d14917b647a4807ed6f9a81e23df <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#hasXPathContext> .
-<http://www.essepuntato.it/2008/12/earmark#XPathPointerRange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/earmark#XPathRange> .
-<http://www.essepuntato.it/2008/12/earmark#URIDocuverse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N61a2561a05ba4c0b96590b443e857364 .
-_:N8b86aad731a542a0a8c5a737393a8308 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/rights> "This ontology is distributed under a Creative Commons Attribution License - http://creativecommons.org/licenses/by/3.0"@en .
-<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/creator> "Silvio Peroni"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:N61a2561a05ba4c0b96590b443e857364 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#anyURI> .
-_:Nc81b706e24174767b62370c24e487a39 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#ends> .
-_:Ncc99150f49f241d580113a8b4de9bc04 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N4771e23859b84480b8a0461bab60f08d .
-_:Nf053aa260d034f6691b5fc3e6ee8e488 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nb890245778d940c1a2c8419faa0a3f9e .
-_:N01ef64993d46493f90fc3d1dc131d038 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#refersTo> .
-_:N61a2561a05ba4c0b96590b443e857364 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#hasContent> .
-_:N7550b70a130a4072a72d412b2e3a7261 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/description> "Extremely Annotational RDF Markup is a meta-syntax for non-embedded markup that can be used for stand-off annotations of textual content with fully W3C-compliant technologies. EARMARK is based on an ontologically precise definition of markup that instantiates the markup of a text document as an independent OWL document outside of the text strings it annotates, and through appropriate OWL and SWRL characterizations it can define structures such as trees or graphs and can be used to generate validity constraints (including co-constraints currently unavailable in most validation languages)."@en .
-<http://www.essepuntato.it/2008/12/earmark#refersTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.essepuntato.it/2008/12/earmark#Range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.essepuntato.it/2008/12/earmark#hasXPathContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-_:N84294152b2624ed78744e3fa7e56bb91 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#begins> .
-<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/date> "2014-05-13" .
-<http://purl.org/dc/elements/1.1/language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-_:N0d38d14917b647a4807ed6f9a81e23df <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.essepuntato.it/2008/12/earmark#Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.essepuntato.it/2008/12/earmark#PointerRange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N56c7ef49404347efb81f4af25e53496b .
-<http://www.essepuntato.it/2008/12/earmark#PointerRange> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.essepuntato.it/2008/12/earmark#XPathRange> .
-<http://www.essepuntato.it/2008/12/earmark#Comment> <http://www.w3.org/2000/01/rdf-schema#label> "comment"@en .
-_:N7550b70a130a4072a72d412b2e3a7261 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#hasContent> .
-<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/contributor> "Fabio Vitali"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:N354956b2e9054593b71285aab58fa2a9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N3b4d994092dc4615acca0e6dd6cfa0c8 .
-<http://www.essepuntato.it/2008/12/earmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-_:Nc81b706e24174767b62370c24e487a39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N3b4d994092dc4615acca0e6dd6cfa0c8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/description> <http://dwellonit.svn.sourceforge.net/svnroot/dwellonit/EARMARK/earmark.png> .
-_:Nf18f5965a1774b2d88af408c0fb1fc34 <http://www.w3.org/2002/07/owl#members> _:Ncc99150f49f241d580113a8b4de9bc04 .
-<http://www.essepuntato.it/2008/12/earmark#StringDocuverse> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.essepuntato.it/2008/12/earmark#URIDocuverse> .
-<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/contributor> "Angelo Di Iorio"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.essepuntato.it/2008/12/earmark#XPathPointerRange> <http://www.w3.org/2000/01/rdf-schema#label> "xpath pointer range"@en .
-_:N4f2c2a8b01204792a2d9274ef59283b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.essepuntato.it/2008/12/earmark#StringDocuverse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/earmark#Docuverse> .
-_:N56c7ef49404347efb81f4af25e53496b <http://www.w3.org/2002/07/owl#intersectionOf> _:N84013f792760486e9589b6394682441c .
-_:N0d38d14917b647a4807ed6f9a81e23df <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N84294152b2624ed78744e3fa7e56bb91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.essepuntato.it/2008/12/earmark#Attribute> <http://www.w3.org/2000/01/rdf-schema#comment> "A markup item identifying an attribute, as the item 'src' in the following XML excerpt:\n\n<img src=\"http://palindrom.es/phd/wp-content/uploads/2009/10/EARMARKLogo.png\" />"@en .
-_:N84013f792760486e9589b6394682441c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nf3f23d01f1b449ed963958d9eecda0dd .
-<http://www.essepuntato.it/2008/12/earmark#StringDocuverse> <http://www.w3.org/2000/01/rdf-schema#label> "string docuverse"@en .
-_:Nb890245778d940c1a2c8419faa0a3f9e <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://www.essepuntato.it/2008/12/earmark#hasXPathContext> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-_:N435316d0e9da4954b82a0b89f449d52f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N1ebe0b71ad494175aaf956c13cba8941 .
-_:Na7ed15c5644345928631f90e9a674d4f <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:N1ebe0b71ad494175aaf956c13cba8941 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://www.essepuntato.it/2008/12/earmark#Comment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/earmark#MarkupItem> .
-<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.essepuntato.it/2008/12/earmark#Attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.essepuntato.it/2008/12/earmark#URIDocuverse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/earmark#Docuverse> .
 <http://www.essepuntato.it/2008/12/earmark#MarkupItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:Nb7e875ad23054a338471896c022e2ef8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#refersTo> .
-<http://www.essepuntato.it/2008/12/earmark#PointerRange> <http://www.w3.org/2000/01/rdf-schema#comment> "A range that refers to any text lying between two non-negative integer locations that identify precise positions withing a docuverse.\n\nEach location of this kind of range refers to a point before or after a particular character. For instance, taking into consideration the string 'This is an example' contained by a docuverse, the location '0' is immediately before the first character 'T', location '1' is immediately after the character 'T' and before the character 'h', the location '2' is after the character 'h' and before 'i', and so on.\n\nNote that these ranges allow to define (considering the string 'a devil' as content of a docuverse as example):\n- document-order ranges, i.e., those ranges that has the begin location lesser than the end location (e.g., begin = 2, end = 7, content result 'devil');\n- reverse-order ranges, i.e., those ranges that has the begin location greater than the end location (e.g., begin = 7, end = 2, content result 'lived')."@en .
-_:Nb7e875ad23054a338471896c022e2ef8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N354956b2e9054593b71285aab58fa2a9 .
-_:Nb890245778d940c1a2c8419faa0a3f9e <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N8b86aad731a542a0a8c5a737393a8308 .
-_:Na7ed15c5644345928631f90e9a674d4f <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#begins> .
-_:N354956b2e9054593b71285aab58fa2a9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#begins> .
-<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.essepuntato.it/2008/12/earmark#hasXPathContext> <http://www.w3.org/2000/01/rdf-schema#label> "has xpath context"@en .
-<http://www.essepuntato.it/2008/12/earmark#Element> <http://www.w3.org/2000/01/rdf-schema#comment> "A markup item identifying an element, as the item 'img' in the following XML excerpt:\n\n<img src=\"http://palindrom.es/phd/wp-content/uploads/2009/10/EARMARKLogo.png\" />"@en .
-<http://www.essepuntato.it/2008/12/earmark> <http://www.w3.org/2000/01/rdf-schema#comment> "Extremely Annotational RDF Markup (EARMARK) is a meta-syntax for non-embedded markup that can be used for stand-off annotations of textual content with fully W3C-compliant technologies.\n\nThis document represents the EARMARK ontology definition of the shell classes i.e., all those classes that must be used to define all the elements, attributes, comments, text nodes and hierarchies among them."@en .
-<http://www.essepuntato.it/2008/12/earmark#PointerRange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/earmark#Range> .
-<http://www.essepuntato.it/2008/12/earmark#XPathPointerRange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N4f2c2a8b01204792a2d9274ef59283b8 .
-_:Nf18f5965a1774b2d88af408c0fb1fc34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:Ncc99150f49f241d580113a8b4de9bc04 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#Attribute> .
-<http://www.essepuntato.it/2008/12/earmark#XPathPointerRange> <http://www.w3.org/2000/01/rdf-schema#comment> "A range that refers to any text, obtained from a particular xpath context starting from a docuverse content, lying between two non-negative integere locations that identify precise positions.\n\nThis kind of range allows to define specific positions, as explained for the class 'PointerRange', within the concatenation of strings obtained by applying the xpath context to the docuverse the range refers to, as introduce in the class 'XPathRange'.\n\nFor instance, considering the following docuverse content:\n\n<root><p>No devil </p><p>lived on</p></root>\n\nthe range defined on that docuverse as xpath_context = '//p', begin = '0', end = '17' refers to the text 'No devil lived on'.\n\nNB: if we define a standard pointer range on the same docuverse using the same begin and end locations of the previous one, what we obtain as text will be '<root><p>No devil'."@en .
+_:N9b0d2cf1647f40aabaec815e1b9ce856 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:N1e377edee31c44dda401c8ea19e6470b <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:Neb779d2228c740ff95497b53e3278ca6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Ncc58a7bc00874d0593e6e4cbfa55d566 .
+_:N884e180389db40ad9f17d2b0d176f54f <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 <http://www.essepuntato.it/2008/12/earmark#Attribute> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/earmark#MarkupItem> .
-_:N241d05502af6457eb271c2c16a4d0d64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#begins> .
-<http://www.essepuntato.it/2008/12/earmark#StringDocuverse> <http://www.w3.org/2000/01/rdf-schema#comment> "A docuverse that specifies all its content in form of a string, such as 'This is the string the docuverse represents.'."@en .
-<http://www.essepuntato.it/2008/12/earmark#hasXPathContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.essepuntato.it/2008/12/earmark#PointerRange> <http://www.w3.org/2002/07/owl#hasKey> _:Nb7e875ad23054a338471896c022e2ef8 .
-_:N241d05502af6457eb271c2c16a4d0d64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N435316d0e9da4954b82a0b89f449d52f .
-<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/title> "EARMARK Ontology"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:N4771e23859b84480b8a0461bab60f08d <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#Comment> .
-<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-_:Na7ed15c5644345928631f90e9a674d4f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.essepuntato.it/2008/12/earmark#XPathRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.essepuntato.it/2008/12/earmark#PointerRange> <http://www.w3.org/2000/01/rdf-schema#label> "pointer range"@en .
-<http://www.essepuntato.it/2008/12/earmark#XPathRange> <http://www.w3.org/2000/01/rdf-schema#label> "xpath range"@en .
-<http://www.essepuntato.it/2008/12/earmark#Element> <http://www.w3.org/2000/01/rdf-schema#label> "element"@en .
-<http://www.essepuntato.it/2008/12/earmark#hasXPathContext> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.essepuntato.it/2008/12/earmark#XPathRange> .
-<http://www.essepuntato.it/2008/12/earmark#Element> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/earmark#MarkupItem> .
-<http://www.essepuntato.it/2008/12/earmark#Comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.essepuntato.it/2008/12/earmark#Comment> <http://www.w3.org/2000/01/rdf-schema#comment> "A markup item identifying a comment, as the item containing the string 'This is a comment' in the following XML excerpt:\n\n<!-- This is a comment -->"@en .
-<http://www.essepuntato.it/2008/12/earmark#URIDocuverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:Nc81b706e24174767b62370c24e487a39 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:N4f2c2a8b01204792a2d9274ef59283b8 <http://www.w3.org/2002/07/owl#intersectionOf> _:Nf053aa260d034f6691b5fc3e6ee8e488 .
-<http://www.essepuntato.it/2008/12/earmark#hasContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.essepuntato.it/2008/12/earmark> <http://www.w3.org/2002/07/owl#imports> <https://essepuntato.github.io/earmark/ghost/current/ghost.owl> .
-<http://www.essepuntato.it/2008/12/earmark#URIDocuverse> <http://www.w3.org/2000/01/rdf-schema#label> "URI docuverse"@en .
-_:N84013f792760486e9589b6394682441c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:Na7ed15c5644345928631f90e9a674d4f .
-<http://www.essepuntato.it/2008/12/earmark#PointerRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/language> "en"^^<http://www.w3.org/2001/XMLSchema#language> .
-<http://www.essepuntato.it/2008/12/earmark#begins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:N8b86aad731a542a0a8c5a737393a8308 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.essepuntato.it/2008/12/earmark> <http://www.w3.org/2002/07/owl#versionInfo> "2.0"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.essepuntato.it/2008/12/earmark#URIDocuverse> <http://www.w3.org/2000/01/rdf-schema#comment> "A container of strings that may appear in the document, such as the URL 'http://www.essepuntato.it/2008/12/docuverse.txt' that contains the string 'This is the string the docuverse represents.'"@en .
-_:N56c7ef49404347efb81f4af25e53496b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:N4771e23859b84480b8a0461bab60f08d <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Ndf1fac0192b044a883330db6b162cbb7 .
-_:Nf3f23d01f1b449ed963958d9eecda0dd <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:N61a2561a05ba4c0b96590b443e857364 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N01ef64993d46493f90fc3d1dc131d038 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N241d05502af6457eb271c2c16a4d0d64 .
-<http://www.essepuntato.it/2008/12/earmark#StringDocuverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.essepuntato.it/2008/12/earmark#Docuverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.essepuntato.it/2008/12/earmark#Attribute> <http://www.w3.org/2000/01/rdf-schema#label> "attribute"@en .
-_:Ndf1fac0192b044a883330db6b162cbb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.essepuntato.it/2008/12/earmark#XPathRange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/earmark#Range> .
-_:N3b4d994092dc4615acca0e6dd6cfa0c8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#ends> .
-_:N7550b70a130a4072a72d412b2e3a7261 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.essepuntato.it/2008/12/earmark#XPathRange> <http://www.w3.org/2000/01/rdf-schema#comment> "A range that refers to any text, obtained from a particular xpath context starting from the docuverse content, lying between two locations that identify precise positions.\n\nThe semantics of this kind of range is the following:\n1. assuming the content of the docuverse the range refers to as well-formed XML, we consider the sequence composed by the nodes obtained by running the xpath context (= a query) on the docuverse. If some non-nodes (e.g., strings, integers, etc.) is returned, it must be excluded from the sequence;\n2. for each node in the sequence, we consider its 'value-of', i.e., the strings contained in all the text nodes reachable starting from the node itself;\n3. considering the concatenation of all the strings obtained in the previous point, we now calculate the begin and end locations of the range."@en .
-_:N1ebe0b71ad494175aaf956c13cba8941 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#hasXPathContext> .
-_:Ndf1fac0192b044a883330db6b162cbb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#Element> .
-_:N8b86aad731a542a0a8c5a737393a8308 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#ends> .
+_:Na5413abc723e4c6785fb2e4d55802d16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 <http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-_:Nf3f23d01f1b449ed963958d9eecda0dd <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:Nc81b706e24174767b62370c24e487a39 .
-<http://www.essepuntato.it/2008/12/earmark#StringDocuverse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N7550b70a130a4072a72d412b2e3a7261 .
+<http://www.essepuntato.it/2008/12/earmark#PointerRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:N0999167388a94cc8823f071909044171 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#hasXPathContext> .
+<http://www.essepuntato.it/2008/12/earmark#hasXPathContext> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines a particular xpath context for the range."@en .
+_:N1e377edee31c44dda401c8ea19e6470b <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#ends> .
+_:N371f7d08f37a4f7da0a34ddab57fde6b <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#begins> .
+<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/date> "2014-05-13" .
+_:N7b9921d4c17045eb9c034628b43286c4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+<http://www.essepuntato.it/2008/12/earmark#URIDocuverse> <http://www.w3.org/2000/01/rdf-schema#label> "URI docuverse"@en .
+<http://www.essepuntato.it/2008/12/earmark#PointerRange> <http://www.w3.org/2002/07/owl#hasKey> _:N478589cc715e4450b72d5275da2cc24e .
+_:Na5413abc723e4c6785fb2e4d55802d16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#ends> .
+_:N9025d4f96e71421eb3555a6136cb021d <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://www.essepuntato.it/2008/12/earmark#StringDocuverse> <http://www.w3.org/2000/01/rdf-schema#comment> "A docuverse that specifies all its content in form of a string, such as 'This is the string the docuverse represents.'."@en .
+_:Ncd8e7e876f1d4f4898a8a4daee77d323 <http://www.w3.org/2002/07/owl#intersectionOf> _:N5835ed05cc6747eaa6542cbcb47cca34 .
+<http://www.essepuntato.it/2008/12/earmark#XPathRange> <http://www.w3.org/2000/01/rdf-schema#label> "xpath range"@en .
+<http://www.essepuntato.it/2008/12/earmark#StringDocuverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/earmark#XPathRange> <http://www.w3.org/2002/07/owl#hasKey> _:N0248b2cdcc42415887ff88546f0b5039 .
+<http://www.essepuntato.it/2008/12/earmark#Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:N0ebb9020868f4c649b01ced9f59e27a0 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.essepuntato.it/2008/12/earmark#Docuverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/earmark#Attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/earmark#Element> <http://www.w3.org/2000/01/rdf-schema#comment> "A markup item identifying an element, as the item 'img' in the following XML excerpt:\n\n<img src=\"http://palindrom.es/phd/wp-content/uploads/2009/10/EARMARKLogo.png\" />"@en .
+<http://www.essepuntato.it/2008/12/earmark#PointerRange> <http://www.w3.org/2000/01/rdf-schema#label> "pointer range"@en .
+<http://www.essepuntato.it/2008/12/earmark#XPathRange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/earmark#Range> .
+_:N371f7d08f37a4f7da0a34ddab57fde6b <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Neb779d2228c740ff95497b53e3278ca6 .
+<http://www.essepuntato.it/2008/12/earmark#refersTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:N0ebb9020868f4c649b01ced9f59e27a0 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#begins> .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.essepuntato.it/2008/12/earmark#Attribute> <http://www.w3.org/2000/01/rdf-schema#comment> "A markup item identifying an attribute, as the item 'src' in the following XML excerpt:\n\n<img src=\"http://palindrom.es/phd/wp-content/uploads/2009/10/EARMARKLogo.png\" />"@en .
+<http://www.essepuntato.it/2008/12/earmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+_:N7b9921d4c17045eb9c034628b43286c4 <http://www.w3.org/2002/07/owl#members> _:Ndc17a9aa9f9348bcb18a0e08adcec6ac .
+_:Nef8b379db9e04b4f821349ff288632ad <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#Element> .
+_:Nf15e2b042c0543bda7ff54f38836247e <http://www.w3.org/2002/07/owl#intersectionOf> _:N6319edbb47594e3f883ff904b9ba5a60 .
+_:Ne4ab69c8f4f5479a938a14c4e09240ec <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:N478589cc715e4450b72d5275da2cc24e <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#refersTo> .
+<http://www.essepuntato.it/2008/12/earmark#StringDocuverse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/earmark#Docuverse> .
 <http://www.essepuntato.it/2008/12/earmark> <http://www.w3.org/2000/01/rdf-schema#label> "EARMARK Ontology: shell classes"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.essepuntato.it/2008/12/earmark#XPathRange> <http://www.w3.org/2002/07/owl#equivalentClass> _:N0d38d14917b647a4807ed6f9a81e23df .
+_:Ncfee7a719ccd4f3d87000e49833abb90 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#hasContent> .
+<http://www.essepuntato.it/2008/12/earmark#ends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:N5b006d8ae6694ffaa12985dec46354ae <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N9b0d2cf1647f40aabaec815e1b9ce856 .
+<http://www.essepuntato.it/2008/12/earmark#URIDocuverse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N9025d4f96e71421eb3555a6136cb021d .
+_:N9b0d2cf1647f40aabaec815e1b9ce856 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Ndc17a9aa9f9348bcb18a0e08adcec6ac <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#Attribute> .
+_:N884e180389db40ad9f17d2b0d176f54f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Na5413abc723e4c6785fb2e4d55802d16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.essepuntato.it/2008/12/earmark#hasXPathContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+_:N5835ed05cc6747eaa6542cbcb47cca34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Ne4ab69c8f4f5479a938a14c4e09240ec .
+<http://www.essepuntato.it/2008/12/earmark#Comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/earmark> <http://www.w3.org/2002/07/owl#versionInfo> "2.0"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.essepuntato.it/2008/12/earmark#Range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:N0248b2cdcc42415887ff88546f0b5039 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N371f7d08f37a4f7da0a34ddab57fde6b .
+<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/description> "Extremely Annotational RDF Markup is a meta-syntax for non-embedded markup that can be used for stand-off annotations of textual content with fully W3C-compliant technologies. EARMARK is based on an ontologically precise definition of markup that instantiates the markup of a text document as an independent OWL document outside of the text strings it annotates, and through appropriate OWL and SWRL characterizations it can define structures such as trees or graphs and can be used to generate validity constraints (including co-constraints currently unavailable in most validation languages)."@en .
+<http://www.essepuntato.it/2008/12/earmark#XPathRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:N0999167388a94cc8823f071909044171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N0248b2cdcc42415887ff88546f0b5039 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#refersTo> .
+_:N6319edbb47594e3f883ff904b9ba5a60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N0ebb9020868f4c649b01ced9f59e27a0 .
+_:Ncfee7a719ccd4f3d87000e49833abb90 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:N47d32528ae904f478600fec225330cb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#begins> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:Ncd8e7e876f1d4f4898a8a4daee77d323 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:Ncc58a7bc00874d0593e6e4cbfa55d566 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#hasXPathContext> .
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:N9025d4f96e71421eb3555a6136cb021d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Neb779d2228c740ff95497b53e3278ca6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#ends> .
+<http://www.essepuntato.it/2008/12/earmark#StringDocuverse> <http://www.w3.org/2000/01/rdf-schema#label> "string docuverse"@en .
+<http://www.essepuntato.it/2008/12/earmark#XPathPointerRange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Ncd8e7e876f1d4f4898a8a4daee77d323 .
+_:N2d2e7c5f995745bcb3cb8dce19a114e5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nef8b379db9e04b4f821349ff288632ad .
+<http://www.essepuntato.it/2008/12/earmark#PointerRange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nf15e2b042c0543bda7ff54f38836247e .
+_:N9025d4f96e71421eb3555a6136cb021d <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#hasContent> .
+_:N0ebb9020868f4c649b01ced9f59e27a0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N9b0d2cf1647f40aabaec815e1b9ce856 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#ends> .
+_:N5b006d8ae6694ffaa12985dec46354ae <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.essepuntato.it/2008/12/earmark#StringDocuverse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Ncfee7a719ccd4f3d87000e49833abb90 .
+_:Ncfee7a719ccd4f3d87000e49833abb90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Ncc58a7bc00874d0593e6e4cbfa55d566 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.essepuntato.it/2008/12/earmark#XPathPointerRange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/earmark#XPathRange> .
+<http://purl.org/dc/elements/1.1/language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.essepuntato.it/2008/12/earmark#PointerRange> <http://www.w3.org/2000/01/rdf-schema#comment> "A range that refers to any text lying between two non-negative integer locations that identify precise positions withing a docuverse.\n\nEach location of this kind of range refers to a point before or after a particular character. For instance, taking into consideration the string 'This is an example' contained by a docuverse, the location '0' is immediately before the first character 'T', location '1' is immediately after the character 'T' and before the character 'h', the location '2' is after the character 'h' and before 'i', and so on.\n\nNote that these ranges allow to define (considering the string 'a devil' as content of a docuverse as example):\n- document-order ranges, i.e., those ranges that has the begin location lesser than the end location (e.g., begin = 2, end = 7, content result 'devil');\n- reverse-order ranges, i.e., those ranges that has the begin location greater than the end location (e.g., begin = 7, end = 2, content result 'lived')."@en .
+_:N6319edbb47594e3f883ff904b9ba5a60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N5b006d8ae6694ffaa12985dec46354ae .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.essepuntato.it/2008/12/earmark#hasContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.essepuntato.it/2008/12/earmark#hasXPathContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:N47d32528ae904f478600fec225330cb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N1e377edee31c44dda401c8ea19e6470b .
+<http://www.essepuntato.it/2008/12/earmark#StringDocuverse> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.essepuntato.it/2008/12/earmark#URIDocuverse> .
+<http://www.essepuntato.it/2008/12/earmark> <http://www.w3.org/2002/07/owl#imports> <https://essepuntato.github.io/earmark/ghost/current/ghost.owl> .
+<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/contributor> "Angelo Di Iorio"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.essepuntato.it/2008/12/earmark#hasXPathContext> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/rights> "This ontology is distributed under a Creative Commons Attribution License - http://creativecommons.org/licenses/by/3.0"@en .
+<http://www.essepuntato.it/2008/12/earmark#XPathPointerRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/earmark#XPathPointerRange> <http://www.w3.org/2000/01/rdf-schema#comment> "A range that refers to any text, obtained from a particular xpath context starting from a docuverse content, lying between two non-negative integere locations that identify precise positions.\n\nThis kind of range allows to define specific positions, as explained for the class 'PointerRange', within the concatenation of strings obtained by applying the xpath context to the docuverse the range refers to, as introduce in the class 'XPathRange'.\n\nFor instance, considering the following docuverse content:\n\n<root><p>No devil </p><p>lived on</p></root>\n\nthe range defined on that docuverse as xpath_context = '//p', begin = '0', end = '17' refers to the text 'No devil lived on'.\n\nNB: if we define a standard pointer range on the same docuverse using the same begin and end locations of the previous one, what we obtain as text will be '<root><p>No devil'."@en .
+<http://www.essepuntato.it/2008/12/earmark#URIDocuverse> <http://www.w3.org/2000/01/rdf-schema#comment> "A container of strings that may appear in the document, such as the URL 'http://www.essepuntato.it/2008/12/docuverse.txt' that contains the string 'This is the string the docuverse represents.'"@en .
+<http://www.essepuntato.it/2008/12/earmark#hasXPathContext> <http://www.w3.org/2000/01/rdf-schema#label> "has xpath context"@en .
+_:Nf15e2b042c0543bda7ff54f38836247e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/earmark#XPathRange> <http://www.w3.org/2002/07/owl#equivalentClass> _:N0999167388a94cc8823f071909044171 .
+_:N478589cc715e4450b72d5275da2cc24e <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N47d32528ae904f478600fec225330cb5 .
+<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/description> <http://www.essepuntato.it/2008/12/earmark.png> .
+_:Nef8b379db9e04b4f821349ff288632ad <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/title> "EARMARK Ontology"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/language> "en"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.essepuntato.it/2008/12/earmark#Comment> <http://www.w3.org/2000/01/rdf-schema#comment> "A markup item identifying a comment, as the item containing the string 'This is a comment' in the following XML excerpt:\n\n<!-- This is a comment -->"@en .
+<http://www.essepuntato.it/2008/12/earmark#Element> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/earmark#MarkupItem> .
+<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/contributor> "Fabio Vitali"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.essepuntato.it/2008/12/earmark#XPathPointerRange> <http://www.w3.org/2000/01/rdf-schema#label> "xpath pointer range"@en .
+<http://www.essepuntato.it/2008/12/earmark#begins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:N2d2e7c5f995745bcb3cb8dce19a114e5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#Comment> .
+<http://www.essepuntato.it/2008/12/earmark#Attribute> <http://www.w3.org/2000/01/rdf-schema#label> "attribute"@en .
+_:N884e180389db40ad9f17d2b0d176f54f <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#begins> .
+<http://www.essepuntato.it/2008/12/earmark#hasXPathContext> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.essepuntato.it/2008/12/earmark#XPathRange> .
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.essepuntato.it/2008/12/earmark#URIDocuverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/earmark#PointerRange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/earmark#Range> .
+_:Ndc17a9aa9f9348bcb18a0e08adcec6ac <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N2d2e7c5f995745bcb3cb8dce19a114e5 .
+<http://www.essepuntato.it/2008/12/earmark#PointerRange> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.essepuntato.it/2008/12/earmark#XPathRange> .
+_:N0999167388a94cc8823f071909044171 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.essepuntato.it/2008/12/earmark#Comment> <http://www.w3.org/2000/01/rdf-schema#label> "comment"@en .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:N5835ed05cc6747eaa6542cbcb47cca34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N884e180389db40ad9f17d2b0d176f54f .
+_:Ne4ab69c8f4f5479a938a14c4e09240ec <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:Na5413abc723e4c6785fb2e4d55802d16 .
+<http://www.essepuntato.it/2008/12/earmark#Comment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/earmark#MarkupItem> .
+<http://www.essepuntato.it/2008/12/earmark> <http://purl.org/dc/elements/1.1/creator> "Silvio Peroni"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.essepuntato.it/2008/12/earmark#URIDocuverse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2008/12/earmark#Docuverse> .
+<http://www.essepuntato.it/2008/12/earmark> <http://www.w3.org/2000/01/rdf-schema#comment> "Extremely Annotational RDF Markup (EARMARK) is a meta-syntax for non-embedded markup that can be used for stand-off annotations of textual content with fully W3C-compliant technologies.\n\nThis document represents the EARMARK ontology definition of the shell classes i.e., all those classes that must be used to define all the elements, attributes, comments, text nodes and hierarchies among them."@en .
+<http://www.essepuntato.it/2008/12/earmark#Element> <http://www.w3.org/2000/01/rdf-schema#label> "element"@en .
+<http://www.essepuntato.it/2008/12/earmark#XPathRange> <http://www.w3.org/2000/01/rdf-schema#comment> "A range that refers to any text, obtained from a particular xpath context starting from the docuverse content, lying between two locations that identify precise positions.\n\nThe semantics of this kind of range is the following:\n1. assuming the content of the docuverse the range refers to as well-formed XML, we consider the sequence composed by the nodes obtained by running the xpath context (= a query) on the docuverse. If some non-nodes (e.g., strings, integers, etc.) is returned, it must be excluded from the sequence;\n2. for each node in the sequence, we consider its 'value-of', i.e., the strings contained in all the text nodes reachable starting from the node itself;\n3. considering the concatenation of all the strings obtained in the previous point, we now calculate the begin and end locations of the range."@en .

@@ -35,7 +35,7 @@
 This document represents the EARMARK ontology definition of the shell classes i.e., all those classes that must be used to define all the elements, attributes, comments, text nodes and hierarchies among them.</rdfs:comment>
         <dc:description xml:lang="en">Extremely Annotational RDF Markup is a meta-syntax for non-embedded markup that can be used for stand-off annotations of textual content with fully W3C-compliant technologies. EARMARK is based on an ontologically precise definition of markup that instantiates the markup of a text document as an independent OWL document outside of the text strings it annotates, and through appropriate OWL and SWRL characterizations it can define structures such as trees or graphs and can be used to generate validity constraints (including co-constraints currently unavailable in most validation languages).</dc:description>
         <dc:rights xml:lang="en">This ontology is distributed under a Creative Commons Attribution License - http://creativecommons.org/licenses/by/3.0</dc:rights>
-        <dc:description rdf:resource="http://dwellonit.svn.sourceforge.net/svnroot/dwellonit/EARMARK/earmark.png"/>
+        <dc:description rdf:resource="earmark.png"/>
         <owl:imports rdf:resource="https://essepuntato.github.io/earmark/ghost/current/ghost.owl"/>
     </owl:Ontology>
     
