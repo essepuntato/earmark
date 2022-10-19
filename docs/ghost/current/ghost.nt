@@ -1,0 +1,142 @@
+<http://www.essepuntato.it/2008/12/earmark#refersTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.essepuntato.it/2008/12/earmark#begins> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.essepuntato.it/2008/12/earmark#Range> .
+_:Nc63c1bb83d7948e48ccd150fd81d4c24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/co/Bag> .
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:N92fd5728d28642ed91f09823c36a9e86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:Na793912749fd4e10a2fb0138c8033b5c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N935540cc8f304bdcaad518d262d965bf .
+<http://www.essepuntato.it/2008/12/earmark#hasNamespace> <http://www.w3.org/2000/01/rdf-schema#label> "has namespace"@en .
+_:N453a0768a1a540b6b8db65c3f215ff91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#MarkupItem> .
+_:Nd4fb578c9f124673b7279d068b072a88 <http://www.w3.org/2002/07/owl#unionOf> _:N5fcfb27b34a34e31a3948b3ec5be1aa8 .
+_:Na3bdcbf8e1ac49d48d3d35f384d2af9c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/co/Set> .
+_:N5fcfb27b34a34e31a3948b3ec5be1aa8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N31ada0cace1e43d18bc23a3eb96c3dba .
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:Nd5b9e85896c14aaebc2604a2a64d86ef <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.essepuntato.it/2010/05/ghost> <http://purl.org/dc/elements/1.1/contributor> "Fabio Vitali"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:N9517e0789636444291835e8e8475f9d4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#Range> .
+_:N11b8e1e11d92406cb73d6af25c6e0676 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N453a0768a1a540b6b8db65c3f215ff91 .
+<http://www.essepuntato.it/2008/12/earmark#hasContent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.essepuntato.it/2008/12/earmark#Docuverse> .
+<http://www.essepuntato.it/2008/12/earmark#ends> <http://www.w3.org/2000/01/rdf-schema#label> "ends at"@en .
+_:N31ada0cace1e43d18bc23a3eb96c3dba <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#Range> .
+_:Nd5b9e85896c14aaebc2604a2a64d86ef <http://www.w3.org/2002/07/owl#allValuesFrom> _:Na11d4a70dab241ad8ac25046a0de9642 .
+_:N1a95f34a37dc4e5482321ab41d9637b9 <http://www.w3.org/2002/07/owl#unionOf> _:N91a9cc18e7cd46d5b845053032672e6d .
+<http://www.essepuntato.it/2010/05/ghost> <http://purl.org/dc/elements/1.1/language> "en"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://www.essepuntato.it/2008/12/earmark#begins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:N86eab4641a0349bb82ac4fc19727ac98 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.essepuntato.it/2008/12/earmark#Docuverse> .
+<http://www.essepuntato.it/2010/05/ghost> <http://purl.org/dc/elements/1.1/creator> "Silvio Peroni"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:N8e21aca914f242c1a58e27c9c3fc6f80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.essepuntato.it/2008/12/earmark#begins> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:Nba5b9216aa574847a3517851661f79e5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:N9a867babd1c348c590aeea7e789ac223 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.essepuntato.it/2008/12/earmark#refersTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to indicate the docuverse a range refers to."@en .
+_:Na11d4a70dab241ad8ac25046a0de9642 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N8e21aca914f242c1a58e27c9c3fc6f80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:Nca77b1089764430fb49b6e0707ac7206 .
+_:N64e1cf98ce4749a5a3c63baa074a4aa8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/dc/elements/1.1/language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:Na2845506e86a4a5fb59de30987aca546 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N9a867babd1c348c590aeea7e789ac223 .
+<http://www.essepuntato.it/2008/12/earmark#MarkupItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:N236309487f2c49ac9c8f6752c8cb2aa7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N92fd5728d28642ed91f09823c36a9e86 .
+<http://www.essepuntato.it/2008/12/earmark#refersTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.essepuntato.it/2008/12/earmark#Range> .
+<http://www.essepuntato.it/2008/12/earmark#hasNamespace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:N453a0768a1a540b6b8db65c3f215ff91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N9517e0789636444291835e8e8475f9d4 .
+<http://www.essepuntato.it/2010/05/ghost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.essepuntato.it/2008/12/earmark#begins> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines the starting location of a range within the docuverse it refers to."@en .
+<http://www.essepuntato.it/2008/12/earmark#ends> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.essepuntato.it/2008/12/earmark#Range> .
+_:Nb68d1b6d117a4ec39c89b90b3c71fa81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N6c695e1df19d4884993e6ace7cc7515d <http://www.w3.org/2002/07/owl#allValuesFrom> _:N1a95f34a37dc4e5482321ab41d9637b9 .
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:N6c695e1df19d4884993e6ace7cc7515d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.essepuntato.it/2008/12/earmark#MarkupItem> <http://www.w3.org/2000/01/rdf-schema#comment> "An artifact to be interpreted as markup (such as elements, attributes and comments), defined as a collection – ordered (List, Bag) or not (Set) – of other markup items and ranges."@en .
+<http://www.essepuntato.it/2008/12/earmark#Docuverse> <http://www.w3.org/2000/01/rdf-schema#comment> "A container of strings that may appear in the document."@en .
+<http://purl.org/co/item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:N8b77aba617fd4473ba1539f7cdfee403 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N236309487f2c49ac9c8f6752c8cb2aa7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N8e21aca914f242c1a58e27c9c3fc6f80 .
+_:N86eab4641a0349bb82ac4fc19727ac98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N7f5fbae8dc3f40ba98d97c4051616523 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:N935540cc8f304bdcaad518d262d965bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:Nb68d1b6d117a4ec39c89b90b3c71fa81 .
+<http://www.essepuntato.it/2008/12/earmark#hasNamespace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.essepuntato.it/2008/12/earmark#hasContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:Na4bb48665be149939d99f61b60a50f27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.essepuntato.it/2008/12/earmark#begins> <http://www.w3.org/2000/01/rdf-schema#label> "begins at"@en .
+<http://www.essepuntato.it/2008/12/earmark#hasGeneralIdentifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:N9fe20f02055848d49a2c0525775ad63e <http://www.w3.org/2002/07/owl#members> _:N11b8e1e11d92406cb73d6af25c6e0676 .
+_:N8b77aba617fd4473ba1539f7cdfee403 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#hasContent> .
+<http://www.essepuntato.it/2008/12/earmark#Docuverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/earmark#Range> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity referring to any text of a docuverse lying between two locations."@en .
+<http://www.essepuntato.it/2008/12/earmark#ends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:N6c695e1df19d4884993e6ace7cc7515d <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/co/element> .
+<http://www.essepuntato.it/2008/12/earmark#Docuverse> <http://www.w3.org/2000/01/rdf-schema#label> "docuverse"@en .
+<http://www.essepuntato.it/2010/05/ghost> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by/3.0"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://www.essepuntato.it/2008/12/earmark#Range> <http://www.w3.org/2000/01/rdf-schema#label> "range"@en .
+<http://www.essepuntato.it/2008/12/earmark#ends> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.essepuntato.it/2008/12/earmark#hasContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.essepuntato.it/2008/12/earmark#hasContent> <http://www.w3.org/2000/01/rdf-schema#label> "has content"@en .
+<http://purl.org/co/Bag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:Nca77b1089764430fb49b6e0707ac7206 <http://www.w3.org/2002/07/owl#intersectionOf> _:Na3bdcbf8e1ac49d48d3d35f384d2af9c .
+<http://www.essepuntato.it/2008/12/earmark#MarkupItem> <http://www.w3.org/2000/01/rdf-schema#label> "markup item"@en .
+_:Na3bdcbf8e1ac49d48d3d35f384d2af9c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N64e1cf98ce4749a5a3c63baa074a4aa8 .
+<http://www.essepuntato.it/2008/12/earmark#begins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+_:Na11d4a70dab241ad8ac25046a0de9642 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/co/itemContent> .
+_:N91a9cc18e7cd46d5b845053032672e6d <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#MarkupItem> .
+_:N92fd5728d28642ed91f09823c36a9e86 <http://www.w3.org/2002/07/owl#intersectionOf> _:Nc63c1bb83d7948e48ccd150fd81d4c24 .
+_:Nca77b1089764430fb49b6e0707ac7206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:Nebcd91803a9f482191b452cfd6ed0a71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/earmark#hasContent> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to specify a content for a particular docuverse."@en .
+_:N9517e0789636444291835e8e8475f9d4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/co/itemContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:N9a867babd1c348c590aeea7e789ac223 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.essepuntato.it/2010/05/ghost> <http://www.w3.org/2002/07/owl#versionInfo> "1.2"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:N9a867babd1c348c590aeea7e789ac223 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#ends> .
+<http://www.essepuntato.it/2008/12/earmark#hasNamespace> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+_:N5fcfb27b34a34e31a3948b3ec5be1aa8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#MarkupItem> .
+<http://www.essepuntato.it/2008/12/earmark#hasGeneralIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "has general identifier"@en .
+_:N8b77aba617fd4473ba1539f7cdfee403 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.essepuntato.it/2008/12/earmark#Range> <http://www.w3.org/2002/07/owl#equivalentClass> _:Na4bb48665be149939d99f61b60a50f27 .
+_:Na2845506e86a4a5fb59de30987aca546 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/co/Set> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2010/05/ghost> <http://purl.org/dc/elements/1.1/date> "2014-04-13" .
+<http://www.essepuntato.it/2008/12/earmark#ends> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines the ending location of a range within the docuverse it refers to."@en .
+_:Nd5b9e85896c14aaebc2604a2a64d86ef <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/co/item> .
+<http://www.essepuntato.it/2008/12/earmark#Range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/co/element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:Nd4fb578c9f124673b7279d068b072a88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:Na793912749fd4e10a2fb0138c8033b5c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N86eab4641a0349bb82ac4fc19727ac98 .
+_:N11b8e1e11d92406cb73d6af25c6e0676 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#Docuverse> .
+_:N7f5fbae8dc3f40ba98d97c4051616523 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.essepuntato.it/2008/12/earmark#Range> .
+_:N91a9cc18e7cd46d5b845053032672e6d <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N7f5fbae8dc3f40ba98d97c4051616523 .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.essepuntato.it/2008/12/earmark#hasGeneralIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.essepuntato.it/2010/05/ghost> <http://purl.org/dc/elements/1.1/contributor> "Angelo Di Iorio"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:Na4bb48665be149939d99f61b60a50f27 <http://www.w3.org/2002/07/owl#intersectionOf> _:Na793912749fd4e10a2fb0138c8033b5c .
+_:Nc63c1bb83d7948e48ccd150fd81d4c24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nba5b9216aa574847a3517851661f79e5 .
+_:N935540cc8f304bdcaad518d262d965bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Na2845506e86a4a5fb59de30987aca546 .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.essepuntato.it/2008/12/earmark#hasNamespace> <http://www.w3.org/2000/01/rdf-schema#comment> "It specifies the namespace of a markup item."@en .
+_:Nb68d1b6d117a4ec39c89b90b3c71fa81 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#begins> .
+_:N1a95f34a37dc4e5482321ab41d9637b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/earmark#Docuverse> <http://www.w3.org/2002/07/owl#equivalentClass> _:N8b77aba617fd4473ba1539f7cdfee403 .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:N31ada0cace1e43d18bc23a3eb96c3dba <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.essepuntato.it/2008/12/earmark#refersTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.essepuntato.it/2008/12/earmark#hasGeneralIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+_:N9fe20f02055848d49a2c0525775ad63e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+<http://www.essepuntato.it/2010/05/ghost> <http://purl.org/dc/elements/1.1/description> "Extremely Annotational RDF Markup (EARMARK) is a meta-syntax for non-embedded markup that can be used for stand-off annotations of textual content with fully W3C-compliant technologies.\n\nThis document represents the EARMARK ontology definition of the ghost classes, i.e., all those basic and abstract concepts that introduce the object of discourse of this meta-markup language."@en .
+<http://www.essepuntato.it/2008/12/earmark#hasNamespace> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.essepuntato.it/2008/12/earmark#MarkupItem> .
+<http://www.essepuntato.it/2008/12/earmark#ends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+_:Nba5b9216aa574847a3517851661f79e5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:Nd5b9e85896c14aaebc2604a2a64d86ef .
+<http://www.essepuntato.it/2008/12/earmark#refersTo> <http://www.w3.org/2000/01/rdf-schema#label> "refers to"@en .
+_:Nebcd91803a9f482191b452cfd6ed0a71 <http://www.w3.org/2002/07/owl#unionOf> _:N236309487f2c49ac9c8f6752c8cb2aa7 .
+<http://www.essepuntato.it/2008/12/earmark#hasContent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:Nb68d1b6d117a4ec39c89b90b3c71fa81 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.essepuntato.it/2010/05/ghost> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/co> .
+<http://www.essepuntato.it/2010/05/ghost> <http://purl.org/dc/elements/1.1/title> "EARMARK Ontology: ghost classes"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.essepuntato.it/2008/12/earmark#hasGeneralIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "It specifies the common name, called general identifier, of a markup item."@en .
+_:N86eab4641a0349bb82ac4fc19727ac98 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2008/12/earmark#refersTo> .
+<http://www.essepuntato.it/2008/12/earmark#MarkupItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nebcd91803a9f482191b452cfd6ed0a71 .
+<http://purl.org/co/Collection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2008/12/earmark#hasGeneralIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.essepuntato.it/2008/12/earmark#MarkupItem> .
+_:N64e1cf98ce4749a5a3c63baa074a4aa8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N6c695e1df19d4884993e6ace7cc7515d .
+_:Na11d4a70dab241ad8ac25046a0de9642 <http://www.w3.org/2002/07/owl#allValuesFrom> _:Nd4fb578c9f124673b7279d068b072a88 .
+<http://www.essepuntato.it/2008/12/earmark#refersTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.essepuntato.it/2008/12/earmark#Docuverse> .

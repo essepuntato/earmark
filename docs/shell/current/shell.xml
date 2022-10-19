@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#StringDocuverse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">string docuverse</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2008/12/earmark#Docuverse"/>
+    <rdfs:subClassOf rdf:nodeID="Na7a97b0f972a48389a82b0b74b4ab464"/>
+    <owl:disjointWith rdf:resource="http://www.essepuntato.it/2008/12/earmark#URIDocuverse"/>
+    <rdfs:comment xml:lang="en">A docuverse that specifies all its content in form of a string, such as 'This is the string the docuverse represents.'.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nafca7bba6b114dd281b138309bb14859">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/earmark#begins"/>
+    <rdf:rest rdf:nodeID="Ncd200a99d75d4d49b064a6bd294eb69b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#XPathRange">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">xpath range</rdfs:label>
+    <owl:equivalentClass rdf:nodeID="N1da59d1a06274b6a9f0aa5779ac9ec24"/>
+    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2008/12/earmark#Range"/>
+    <rdfs:comment xml:lang="en">A range that refers to any text, obtained from a particular xpath context starting from the docuverse content, lying between two locations that identify precise positions.
+
+The semantics of this kind of range is the following:
+1. assuming the content of the docuverse the range refers to as well-formed XML, we consider the sequence composed by the nodes obtained by running the xpath context (= a query) on the docuverse. If some non-nodes (e.g., strings, integers, etc.) is returned, it must be excluded from the sequence;
+2. for each node in the sequence, we consider its 'value-of', i.e., the strings contained in all the text nodes reachable starting from the node itself;
+3. considering the concatenation of all the strings obtained in the previous point, we now calculate the begin and end locations of the range.</rdfs:comment>
+    <owl:hasKey rdf:nodeID="Nf08870b829534d94865cb8ca11a0aebb"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne9128c6c037d4658a32148fbeaefcee4">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/earmark#refersTo"/>
+    <rdf:rest rdf:nodeID="Nafca7bba6b114dd281b138309bb14859"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#Attribute">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">attribute</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2008/12/earmark#MarkupItem"/>
+    <rdfs:comment xml:lang="en">A markup item identifying an attribute, as the item 'src' in the following XML excerpt:
+
+&lt;img src="http://palindrom.es/phd/wp-content/uploads/2009/10/EARMARKLogo.png" /&gt;</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd617964be74a4a89b1401b8371df7ed4">
+    <rdf:first rdf:nodeID="N6415ad545e8f45c98d0d2a6f5129d622"/>
+    <rdf:rest rdf:nodeID="N345b0241be1d43eaaa3aebfc24808273"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EARMARK Ontology: shell classes</rdfs:label>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.0</owl:versionInfo>
+    <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angelo Di Iorio</dc:contributor>
+    <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fabio Vitali</dc:contributor>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EARMARK Ontology</dc:title>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silvio Peroni</dc:creator>
+    <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</dc:language>
+    <dc:date>2014-05-13</dc:date>
+    <rdfs:comment xml:lang="en">Extremely Annotational RDF Markup (EARMARK) is a meta-syntax for non-embedded markup that can be used for stand-off annotations of textual content with fully W3C-compliant technologies.
+
+This document represents the EARMARK ontology definition of the shell classes i.e., all those classes that must be used to define all the elements, attributes, comments, text nodes and hierarchies among them.</rdfs:comment>
+    <dc:description xml:lang="en">Extremely Annotational RDF Markup is a meta-syntax for non-embedded markup that can be used for stand-off annotations of textual content with fully W3C-compliant technologies. EARMARK is based on an ontologically precise definition of markup that instantiates the markup of a text document as an independent OWL document outside of the text strings it annotates, and through appropriate OWL and SWRL characterizations it can define structures such as trees or graphs and can be used to generate validity constraints (including co-constraints currently unavailable in most validation languages).</dc:description>
+    <dc:description rdf:resource="http://dwellonit.svn.sourceforge.net/svnroot/dwellonit/EARMARK/earmark.png"/>
+    <dc:rights xml:lang="en">This ontology is distributed under a Creative Commons Attribution License - http://creativecommons.org/licenses/by/3.0</dc:rights>
+    <owl:imports rdf:resource="http://www.essepuntato.it/2010/05/ghost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#MarkupItem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N345b0241be1d43eaaa3aebfc24808273">
+    <rdf:first rdf:nodeID="N529b2d4d428b4824a1329c06333b4184"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#Docuverse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/rights">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9b21d17d50634780a8786af2651f27fd">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Nd617964be74a4a89b1401b8371df7ed4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne01e553f4c1f437c9604fd8e72ef3be9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/earmark#hasContent"/>
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na7a97b0f972a48389a82b0b74b4ab464">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/earmark#hasContent"/>
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc25fb40f1ecc4eb19785350ebf850956">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Nde692dbe2b524862a41c55271409184c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nde692dbe2b524862a41c55271409184c">
+    <rdf:first rdf:nodeID="N8b98f3c17ac549399874cfe93940fbd5"/>
+    <rdf:rest rdf:nodeID="N90444501b3094f93b78eb6e5a5ba4d5b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#XPathPointerRange">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">xpath pointer range</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2008/12/earmark#XPathRange"/>
+    <rdfs:subClassOf rdf:nodeID="N9b21d17d50634780a8786af2651f27fd"/>
+    <rdfs:comment xml:lang="en">A range that refers to any text, obtained from a particular xpath context starting from a docuverse content, lying between two non-negative integere locations that identify precise positions.
+
+This kind of range allows to define specific positions, as explained for the class 'PointerRange', within the concatenation of strings obtained by applying the xpath context to the docuverse the range refers to, as introduce in the class 'XPathRange'.
+
+For instance, considering the following docuverse content:
+
+&lt;root&gt;&lt;p&gt;No devil &lt;/p&gt;&lt;p&gt;lived on&lt;/p&gt;&lt;/root&gt;
+
+the range defined on that docuverse as xpath_context = '//p', begin = '0', end = '17' refers to the text 'No devil lived on'.
+
+NB: if we define a standard pointer range on the same docuverse using the same begin and end locations of the previous one, what we obtain as text will be '&lt;root&gt;&lt;p&gt;No devil'.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasXPathContext">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="en">has xpath context</rdfs:label>
+    <rdfs:comment xml:lang="en">It defines a particular xpath context for the range.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.essepuntato.it/2008/12/earmark#XPathRange"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1da59d1a06274b6a9f0aa5779ac9ec24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/earmark#hasXPathContext"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/title">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#URIDocuverse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">URI docuverse</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2008/12/earmark#Docuverse"/>
+    <rdfs:subClassOf rdf:nodeID="Ne01e553f4c1f437c9604fd8e72ef3be9"/>
+    <rdfs:comment xml:lang="en">A container of strings that may appear in the document, such as the URL 'http://www.essepuntato.it/2008/12/docuverse.txt' that contains the string 'This is the string the docuverse represents.'</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#PointerRange">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">pointer range</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2008/12/earmark#Range"/>
+    <rdfs:subClassOf rdf:nodeID="Nc25fb40f1ecc4eb19785350ebf850956"/>
+    <owl:disjointWith rdf:resource="http://www.essepuntato.it/2008/12/earmark#XPathRange"/>
+    <rdfs:comment xml:lang="en">A range that refers to any text lying between two non-negative integer locations that identify precise positions withing a docuverse.
+
+Each location of this kind of range refers to a point before or after a particular character. For instance, taking into consideration the string 'This is an example' contained by a docuverse, the location '0' is immediately before the first character 'T', location '1' is immediately after the character 'T' and before the character 'h', the location '2' is after the character 'h' and before 'i', and so on.
+
+Note that these ranges allow to define (considering the string 'a devil' as content of a docuverse as example):
+- document-order ranges, i.e., those ranges that has the begin location lesser than the end location (e.g., begin = 2, end = 7, content result 'devil');
+- reverse-order ranges, i.e., those ranges that has the begin location greater than the end location (e.g., begin = 7, end = 2, content result 'lived').</rdfs:comment>
+    <owl:hasKey rdf:nodeID="Ne9128c6c037d4658a32148fbeaefcee4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N529b2d4d428b4824a1329c06333b4184">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/earmark#ends"/>
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na114c4c7c348414ab73ade934521ce4e">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/earmark#Comment"/>
+    <rdf:rest rdf:nodeID="Ndc378d0160414ff8b8069068c665529c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6415ad545e8f45c98d0d2a6f5129d622">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/earmark#begins"/>
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N26181a76bf69426d9246564b94ba3a8a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/earmark#ends"/>
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncd200a99d75d4d49b064a6bd294eb69b">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/earmark#ends"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nec9bab80c98749a79da4760b14c71c87">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/earmark#ends"/>
+    <rdf:rest rdf:nodeID="N27ffd929e3f64d14943d8d01a94d907d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8b98f3c17ac549399874cfe93940fbd5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.essepuntato.it/2008/12/earmark#begins"/>
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf08870b829534d94865cb8ca11a0aebb">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/earmark#refersTo"/>
+    <rdf:rest rdf:nodeID="N59313d2789914cc08f52784e4b15f31c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#Range">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/contributor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#Element">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">element</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2008/12/earmark#MarkupItem"/>
+    <rdfs:comment xml:lang="en">A markup item identifying an element, as the item 'img' in the following XML excerpt:
+
+&lt;img src="http://palindrom.es/phd/wp-content/uploads/2009/10/EARMARKLogo.png" /&gt;</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N27ffd929e3f64d14943d8d01a94d907d">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/earmark#hasXPathContext"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb24f9900e2da425685d00619c6cd60f9">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/earmark#Attribute"/>
+    <rdf:rest rdf:nodeID="Na114c4c7c348414ab73ade934521ce4e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndc378d0160414ff8b8069068c665529c">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/earmark#Element"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/date">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N90444501b3094f93b78eb6e5a5ba4d5b">
+    <rdf:first rdf:nodeID="N26181a76bf69426d9246564b94ba3a8a"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#Comment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">comment</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2008/12/earmark#MarkupItem"/>
+    <rdfs:comment xml:lang="en">A markup item identifying a comment, as the item containing the string 'This is a comment' in the following XML excerpt:
+
+&lt;!-- This is a comment --&gt;</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2d76f0c6d4404bda911f79f118483829">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="Nb24f9900e2da425685d00619c6cd60f9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N59313d2789914cc08f52784e4b15f31c">
+    <rdf:first rdf:resource="http://www.essepuntato.it/2008/12/earmark#begins"/>
+    <rdf:rest rdf:nodeID="Nec9bab80c98749a79da4760b14c71c87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/creator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/language">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+</rdf:RDF>
